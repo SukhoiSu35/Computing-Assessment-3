@@ -1,7 +1,7 @@
 ### Identifying a Need
 
 **Problem/Need:**
-A Tower Defense (TD) game addresses the need for strategic thinking and decision-making under pressure. The core problem is how players can effectively defend a base or territory from waves of enemies using limited resources to strategically place towers. The need being fulfilled is entertainment combined with cognitive skill development, as players must balance resource management, planning, and quick reactions. This type of game can also act as a casual introduction to real-time strategy concepts for gamers who enjoy tactical challenges.
+A Tower Defense game addresses the need for strategic thinking and decision-making under pressure. The core problem is how players can effectively defend a base or territory from waves of enemies using limited resources to strategically place towers. The need being fulfilled is entertainment combined with cognitive skill development, as players must balance resource management, planning, and quick reactions. This type of game can also act as a casual introduction to real-time strategy concepts for gamers who enjoy tactical. challenges. I believe my game can achieve all stated above 
 
 ### Requirements Outline
 
@@ -12,15 +12,14 @@ A Tower Defense (TD) game addresses the need for strategic thinking and decision
   - Optional touch input for mobile platforms.
   
 - **Game Actions:**
-  - Selecting tower types from a menu.
-  - Drag-and-drop or click-to-place mechanism for towers.
-  - Upgrading or selling towers during gameplay.
+  - Deploying defenses 
+  - Sending mini forces 
   
 - **Enemy Waves:**
   - Internal game mechanics triggering waves of enemies.
   
 - **Difficulty Settings:**
-  - Player input to select difficulty at the start or adjust settings (e.g., speed of enemy waves, tower strength).
+  - Player input to select difficulty at the start or adjust settings (e.g., speed of enemy waves, tower strength). (TBC)
 
 #### Processing:
 - **Tower Logic:**
@@ -132,3 +131,16 @@ A Tower Defense (TD) game addresses the need for strategic thinking and decision
    - Ensure that all assets used, whether visual or audio, are properly licensed or original to avoid copyright infringement.
 
 In conclusion, a Tower Defense game offers a dynamic way to engage players in strategic thinking and decision-making, while addressing the need for both casual entertainment and intellectual challenge. By meeting these functional and non-functional requirements and considering social and ethical impacts, the game can provide a satisfying and thoughtful experience.
+
+
+
+
+|   Existing Idea                            |    ![Alt text](https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/960090/ss_cc8f0bb7f660dca501806b1853e62664bd26e30b.1920x1080.jpg?t=1723603688)  
+**BLOONS TD 6**
+
+**Plus**   | *This game has incorporated a lot of deep and engaging gameplay which makes you think very strategically which is really good. Another plus of this game is that is a very vibrant game which really good style and animation*   
+
+**Minus** |  *This game though is a really good game, it still has minuses. When new players join the game it is quite easy but the difficulty curve can spike dramatically on higher levels which makes it difficult for newbies*
+
+**Implication**  | *Looking at this game, it has inspired me to make something very similiar, I will try to make the 2 towers situated far away from eachother for easier and slower thinking*
+  
