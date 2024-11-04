@@ -144,3 +144,40 @@ In conclusion, a Tower Defense game offers a dynamic way to engage players in st
 
 **Implication**  | *Looking at this game, it has inspired me to make something very similiar, I will try to make the 2 towers situated far away from eachother for easier and slower thinking*
   
+
+
+
+# FLOW CHART AND PSEUDOCODE
+
+
+
+
+
+
+   **PSUEDOCODE**
+   BEGIN GAME 
+
+      KEYBOARD INPUT userInput
+
+         IF '1' pressed THEN
+
+            Deploy Mini Tank
+
+            ELSE IF '2' pressed THEN
+
+               Fire at other base
+
+                  ELSE IF '3' pressed THEN
+
+                     Deflect Fire 
+
+                  ELSE IF '4' pressed THEN
+
+               Unlock super ability(EVERY 20 SECONDS)
+
+            ENDIF ‘E’ pressed THEN
+
+         END Movement
+         
+
+
