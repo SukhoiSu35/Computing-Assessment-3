@@ -54,9 +54,8 @@ A Tower Defense game addresses the need for strategic thinking and decision-maki
 - **Win/Loss Conditions:**
   - A visual/audio alert when enemies reach the base (lose health) or all waves are defeated (victory).
 
-#### Transmission:
-- **Multiplayer Mode (Optional):**
-  - If a multiplayer feature is included, real-time data transmission between players to display tower placement, enemy waves, and scores in shared games.
+**TRANSMISSION**
+   - All data will be recorded in the game, like high scores
   
 #### Storage:
 - **Game Progress:**
@@ -71,22 +70,20 @@ A Tower Defense game addresses the need for strategic thinking and decision-maki
 ### Functional and Non-Functional Requirements
 
 #### Functional Requirements:
-1. **Tower Placement:**
-   - Players must be able to place towers on specific locations on the map.
+
+1. **User Interaction**
+   - All users will interact with keyboard in the game 
    
-2. **Enemy Pathfinding:**
-   - Enemies should follow a pre-determined path toward the player’s base.
-   
-3. **Attack and Defense:**
+2. **Attack and Defense:**
    - Towers must automatically attack enemies within range, and enemies lose health upon being hit.
    
-4. **Resource System:**
+3. **Resource System:**
    - The game should grant resources when enemies are defeated and deduct resources when towers are built or upgraded.
    
-5. **Wave System:**
+4. **Wave System:**
    - The game should spawn waves of enemies at set intervals, with each wave becoming progressively more difficult.
    
-6. **Victory/Defeat Conditions:**
+5. **Victory/Defeat Conditions:**
    - The game should recognize when all enemies have been defeated (victory) or when the base’s health reaches zero (defeat).
 
 #### Non-Functional Requirements:
@@ -111,23 +108,32 @@ A Tower Defense game addresses the need for strategic thinking and decision-maki
 ### Social and Ethical Issues
 
 #### Social Issues:
-1. **Inclusive Design:**
-   - Ensure that the game is designed for players with different abilities by incorporating features like colorblind modes, adjustable difficulty, and alternative control schemes.
+**EQUITY** - Equity ensures balanced treatment based on each person's needs or rights and is defined as justice and fairness. In financial or legal situations, it can refers to ownership or value possessed.
 
-2. **Community Features (Optional):**
-   - If the game includes multiplayer or leaderboard features, it should promote healthy competition and avoid creating a toxic or exclusionary environment.
+**ACCESSIBILTY** - The way of accessing something, whether it be easy or hard 
+
+### Accessibility
+Make sure the game has features like alternative controls (such as touch input or programmable keys), subtitles for any audio, and visual changes like contrast settings and colorblind modes.
+
+### Privacy and Data Protection
+Make sure that whatever data the game gathers—like high scores—is encrypted, stored safely, and only gathered with the player's permission.
+
+### Fairness and Representation
+When designing characters and enemies, steer clear of clichés. By designing inclusive, non-biased game elements, you can guarantee diversity.
+
+### Mental and Emotional Well-Being
+Make the game enjoyable and upbeat. To lessen stress, steer clear of upsetting or violent stuff and provide solutions for difficulty.
+
+### Cultural Sensitivities
+To prevent any offense or cultural misunderstanding, use neutral, abstract surroundings and symbols.
+
 
 #### Ethical Issues:
-1. **Addiction and Time Management:**
-   - As with many strategy games, Tower Defense can be addictive. The game should include cues for healthy playtime or time management, especially if the target audience includes younger players.
 
-2. **Monetization (Optional):**
-   - If the game includes in-app purchases for upgrades or premium content, these should be balanced fairly, and not designed to exploit players for financial gain (e.g., avoid pay-to-win mechanics).
-
-3. **Violence Representation:**
+1. **Violence Representation:**
    - Although the game involves combat (towers attacking enemies), the violence should be abstract or cartoonish, keeping the game accessible to all ages and avoiding excessive gore or realism.
 
-4. **Intellectual Property:**
+2. **Intellectual Property:**
    - Ensure that all assets used, whether visual or audio, are properly licensed or original to avoid copyright infringement.
 
 In conclusion, a Tower Defense game offers a dynamic way to engage players in strategic thinking and decision-making, while addressing the need for both casual entertainment and intellectual challenge. By meeting these functional and non-functional requirements and considering social and ethical impacts, the game can provide a satisfying and thoughtful experience.
@@ -149,12 +155,25 @@ In conclusion, a Tower Defense game offers a dynamic way to engage players in st
 
 # FLOW CHART AND PSEUDOCODE
 
+# USER INTERACTION
+![Alt text](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcrrS9Twv0Ogm7b08FW_VGNiu3HiIpfMybwf_i_bRFxyk_6W152d5vahxGnJlf5ajBcz5RFpUQv3zqZnl8zuJni8uzgfTslCgQp8j0d-CoDw7tt0T07VFxH0PK1mXkuu_jbbtfEOECo_40-xVCHILFUHNk?key=d5MU--xTJcPcSlFY9KKlnL_r)
 
+# ATTACK AND DEFENCE
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcj52qLzdnlZZDOWVTXRZMp4-j2x07QnyzlPK2_hPKuzYpXtP2u7wMy7uTDUaG3hu3kIw9g1IeFx3LiQtbzeyAn2qsQFNVUdib9zos3gEtMrU5jE6ksuvBHoce_3ZvWjD231iyLpYwUrAbBQtoD-X5gLVaE?key=d5MU--xTJcPcSlFY9KKlnL_r)
 
+# RESOURCES 
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe8Spsr-cancn_E5K0E6S55d2gU1em6nchwYeUy88_Axg2dLegelaRhx2eEsYqPB9dFsH1-jkJ_5H6WDBy9d5OipfT8rNfbTAKYu5OupggSK_AV4cwqrwbz5tWffoE1x4hH9G-XMb7iiuFWtuA2wRkLMpD4?key=d5MU--xTJcPcSlFY9KKlnL_r)
 
+# WAVES
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXey10N-gWLC8sJKPxmgdBM0E6e8Hf973zbaXtCe3XT3Iqx7vrPgGceZ6IMT3TftGgdB8vMkQjf9051hR1bej3rgmrYamRZ5JWd2u4eylkbWc-EsBHilK6p5P4DoJeM2FwGayH41_4OJhUbSrt87u7ri-Rpl?key=d5MU--xTJcPcSlFY9KKlnL_r)
 
+# VICTORY SYSTEM
 
-   **PSUEDOCODE**
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeG-ctjqbldvrzaLkpOJEqT5Wbs9qfFWtpfHz2UWjln3FdBKJfY7hdvb6tiB4Qx5-LV4GZK-NPw9YPTDHaZAKRB7RhnP3JiAJwcr5x8Rdkrdh7g1br2mDATx26_Z3loCAQa2ft5fiAlblMyKY1f45snohEC?key=d5MU--xTJcPcSlFY9KKlnL_r)
+
+   # PSEUDOCODE
+   # USER INTERACTION
+
    BEGIN GAME 
 
       KEYBOARD INPUT userInput
@@ -178,6 +197,100 @@ In conclusion, a Tower Defense game offers a dynamic way to engage players in st
             ENDIF ‘E’ pressed THEN
 
          END Movement
+
+# ATTACK AND DEFENCE
+      BEGIN GAME
+
+         MOUSE INPUT userInput
+
+            IF Left Mouse Pressed THEN
+
+                                    Attack
+
+               ELSE IF Right Mouse Pressed THEN
+                  
+               Defend
+        
+         END GAME
+
+      ENDIF
+
+# RESOURCES 
+      BEGIN GAME
+
+            USER INPUT
+
+                IF Win against enemy THEN
+               
+                  Give resources and coins
+                        
+                           ELSE
+               
+                  Buy upgrades
+            
+               ENDIF
+
+            IF Resources >= UpgradeCost THEN
+      
+         Deduct UpgradeCost from Resources
+      
+      ENDIF
+
+END GAME
+
+
+# WAVES
+      BEGIN GAME
+
+         COMPUTER INPUT userInput
+
+               IF Beat Wave One THEN
+
+                           Move to Wave 2
+
+                              IF Beat Wave Two THEN
+            
+                            Move to Wave 3
+
+                         IF Beat Wave Three THEN
+             
+                   SPLASH SCREEN (YOU WIN)
+
+                       ELSE
+                  SPLASH SCREEN (YOU LOSE)
+
+                ELSE
+            SPLASH SCREEN (YOU LOSE)
+
+          ELSE
+         SPLASH SCREEN (YOU LOSE)
+
+      END GAME
+
+
+# VICTORY SYSTEM
+
+      BEGIN GAME
+
+         COMPUTER INPUT userInput
+
+            SET Player Health = 100
+
+                        FIGHT ENEMIES
+
+                     IF Player Health = 0 THEN
          
+                  SPLASH SCREEN (YOU LOSE)
+
+               ELSE IF Enemy Health = 0 THEN
+         
+            VICTORY
+      
+         SPLASH SCREEN (YOU WIN)
+
+      END GAME
 
 
+
+## GANTT CHART
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf9w92xuobtCV-wlViGRT0pgUM_fFSyABDbEETbtq36flyvWnauQgLGwxygkv3wEGcmxBcofKYwu6pt7hgivHJqlACkNa49KHpjEuB-F_p6KN7Lq7EA_0escb39V5UqTUAR1f2CbQy-jksmL49PPx8fuX0h?key=d5MU--xTJcPcSlFY9KKlnL_r)
